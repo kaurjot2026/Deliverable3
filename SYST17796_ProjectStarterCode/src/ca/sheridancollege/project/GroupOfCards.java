@@ -17,12 +17,13 @@ import java.util.Collections;
  */
 public class GroupOfCards {
 
-    //The group of cards, stored in an ArrayList
+    // The group of cards, stored in an ArrayList
     private ArrayList<Card> cards;
-    private int size;//the size of the grouping
+    private int size;// The size of the grouping
 
     public GroupOfCards(int size) {
         this.size = size;
+        cards = new ArrayList<>();
     }
 
     /**
@@ -52,4 +53,5 @@ public class GroupOfCards {
         this.size = size;
     }
 
-}//end class
+   
+}//end
